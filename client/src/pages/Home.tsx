@@ -12,6 +12,8 @@
 
 import { useEffect, useRef, useState } from "react";
 
+const REF_LINK = "https://52896.call2me.pro/ru/registration?partner=p52896p3328856p2503";
+
 const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663588131980/k4LqmXXoJssc6FQkm8iknF/hero-banner-9vyUu7sS8noQJPCWL9eCAv.webp";
 const CHAR_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663588131980/k4LqmXXoJssc6FQkm8iknF/doodle-character-hH5bpPb4JadrQdZgQC3Fx5.webp";
 const PLATFORMS_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663588131980/k4LqmXXoJssc6FQkm8iknF/casino-platforms-63ZbTnyw3foEztYZK6ywkQ.webp";
@@ -246,10 +248,10 @@ export default function Home() {
                   marginBottom: 20,
                 }}
               >
-                <a href="#play" className="btn-doodle btn-primary" style={{ fontSize: "clamp(16px, 4vw, 20px)" }}>
+                <a href={REF_LINK} target="_blank" rel="noopener noreferrer" className="btn-doodle btn-primary" style={{ fontSize: "clamp(16px, 4vw, 20px)" }}>
                   🎰 Играть на деньги
                 </a>
-                <a href="#demo" className="btn-doodle btn-secondary" style={{ fontSize: "clamp(16px, 4vw, 20px)" }}>
+                <a href={REF_LINK} target="_blank" rel="noopener noreferrer" className="btn-doodle btn-secondary" style={{ fontSize: "clamp(16px, 4vw, 20px)" }}>
                   🎮 Демо бесплатно
                 </a>
               </div>
@@ -502,10 +504,10 @@ export default function Home() {
               </div>
 
               <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
-                <a href="#play" className="btn-doodle btn-primary" style={{ fontSize: 18 }}>
+                <a href={REF_LINK} target="_blank" rel="noopener noreferrer" className="btn-doodle btn-primary" style={{ fontSize: 18 }}>
                   🎰 Играть на сайте
                 </a>
-                <a href="#demo" className="btn-doodle btn-gold" style={{ fontSize: 18 }}>
+                <a href={REF_LINK} target="_blank" rel="noopener noreferrer" className="btn-doodle btn-gold" style={{ fontSize: 18 }}>
                   🎮 Демо-счёт
                 </a>
               </div>
@@ -567,7 +569,7 @@ export default function Home() {
                   ))}
                 </ul>
               </div>
-              <a href="#demo" className="btn-doodle btn-primary" style={{ fontSize: 18 }}>
+              <a href={REF_LINK} target="_blank" rel="noopener noreferrer" className="btn-doodle btn-primary" style={{ fontSize: 18 }}>
                 🎮 Запустить демо бесплатно
               </a>
             </div>
@@ -659,10 +661,10 @@ export default function Home() {
                 >
                   🤖 Telegram бот
                 </span>
-                <a href="#play" style={{ color: "#0F2A44", fontWeight: 900, textDecoration: "none", fontSize: 14 }}>
+                <a href={REF_LINK} target="_blank" rel="noopener noreferrer" style={{ color: "#0F2A44", fontWeight: 900, textDecoration: "none", fontSize: 14 }}>
                   Играть на деньги
                 </a>
-                <a href="#demo" style={{ color: "#0F2A44", fontWeight: 900, textDecoration: "none", fontSize: 14 }}>
+                <a href={REF_LINK} target="_blank" rel="noopener noreferrer" style={{ color: "#0F2A44", fontWeight: 900, textDecoration: "none", fontSize: 14 }}>
                   Демо-счёт
                 </a>
                 <a href="#faq" style={{ color: "#0F2A44", fontWeight: 900, textDecoration: "none", fontSize: 14 }}>
@@ -792,10 +794,10 @@ export default function Home() {
                 Вывод от 500₽. Максимальный выигрыш x500.
               </p>
               <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
-                <a href="#play" className="btn-doodle btn-primary" style={{ fontSize: 20 }}>
+                <a href={REF_LINK} target="_blank" rel="noopener noreferrer" className="btn-doodle btn-primary" style={{ fontSize: 20 }}>
                   🎰 Играть на деньги
                 </a>
-                <a href="#demo" className="btn-doodle btn-gold" style={{ fontSize: 20 }}>
+                <a href={REF_LINK} target="_blank" rel="noopener noreferrer" className="btn-doodle btn-gold" style={{ fontSize: 20 }}>
                   🎮 Демо бесплатно
                 </a>
               </div>
