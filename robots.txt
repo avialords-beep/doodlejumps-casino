@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Disallow: /404
+Disallow:
 
 Sitemap: https://doodlejumps-casino.vercel.app/sitemap.xml
 
